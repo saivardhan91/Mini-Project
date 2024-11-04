@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.chats {
+  font-family: 'Pacifico', cursive; /* Set font to Pacifico */
+  text-align: center; /* Optional: Center the text */
+  font-size: 2rem; /* Optional: Adjust font size */
+}

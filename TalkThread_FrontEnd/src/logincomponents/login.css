@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  align-items: center;
+  height: 100vh;
+}
+
+.heading {
+  font-family: 'Pacifico', cursive; /* Set font to Pacifico */
+  text-align: center; /* Optional: Center the text */
+  font-size: 2rem; /* Optional: Adjust font size */
+}
+
+
+.login-page h1 {
+  color: white;
+}
+.page{
+  display: grid;
+  justify-content: center;
+}
+.page .title_name {
+  display: none;
+  font-family: 'Pacifico', cursive; 
+  font-style: italic;
+  color:rgba(0, 0, 0, 0.699);
+  font-size: 2rem;
+}
+
+
+.sub button[type="submit"] {
+  margin-top: 20px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 38px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.sub button[type="submit"]:hover {
+  background-color: rgb(200, 200, 243);
+  color: black;
+}
+
+.sub {
+  display: flex;
+  justify-content: center;
+}
+
+input.largercheckbox {
+  transform: scale(2);
+  gap: 2px;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.heading h1 {
+  color: black;
+}
+
+.g-signin {
+  border: 2px solid black;
+  display: flex;
+  gap: 3px;
+  background-color: black;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  position: relative;
+  bottom: -200px;
+}
+
+.goog {
+  width: 20px;
+  height: 20px;
+}
+
+.photo {
+  background-image: url(./T.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  border: 2px solid black;
+  width: 400px;
+  height: 500px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(5px);
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  box-shadow: 0px 10px 12px 0 rgba(0, 0, 0, 0.2), 5px 0px 12px 0 rgba(0, 0, 0, 0.19);
+}
+
+.name {
+  color: black;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+
+.inpname {
+  overflow: hidden;
+  width: 300px;
+}
+
+.underline {
+  width: 90px;
+  height: 6px;
+  background-color: black;
+  border-radius: 9px;
+}
+
+.login {
+  border: 2px solid black;
+  width: 400px;
+  height: 500px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(25px);
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+}
+
+.heading .link {
+  color: #005af2;
+  cursor: pointer;
+  font-size: larger;
+}
+
+.heading .link:hover {
+  color: indigo;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signin {
+  background-color: white;
+  border-radius: 10px;
+  padding: 3px;
+  width: 120px;
+  align-items: center;
+  height: 50px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.signin h1 {
+  font-size: 1.2rem;
+}
+
+.gray {
+  background-color: rgb(153, 180, 231);
+}
+
+.forgot {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+input {
+  padding: 10px;
+  color: white;
+  background: transparent;
+  border-color: black;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid black;
+  font-size: 17px;
+  margin-bottom: 15px;
+  outline: none;
+  width: 100%;
+  margin-top: 10px;
+}
+
+input[type="checkbox"] {
+  width: 10px;
+}
+
+::placeholder {
+  color: white;
+}
+
+.icon-photo {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 2px;
+  cursor: pointer;
+}
+
+.disable {
+  display: none;
+}
+
+.inpname label {
+  color: black;
+  font-weight: bold;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.check-box label {
+  color: black;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.check-box {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+a {
+  color: blue;
+}
+.name h1{
+  font-size: 1.7rem;
+}
+/* Responsive adjustments */
+@media screen and (max-width: 480px) {
+  .photo {
+    display: none;
+  }
+  .g-signin-resp {
+    display: flex;
+  }
+  .page .title_name{
+    display: grid;
+    justify-content: center;
+  }
+  .login-page {
+    width: 100%; 
+    height: auto; 
+    padding-left: 10px;
+    box-shadow: none; 
+  }
+}
